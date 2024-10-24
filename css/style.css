@@ -257,3 +257,50 @@ img {
   line-height: 24px;
 }
 /* End of Homepage */
+
+/* Begining of DosageProgram */
+
+#dosage-program {
+  padding: 60px 0px;
+}
+#dosage-program .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+#dosage-program .row .col {
+  max-width: calc(50% - 25px);
+  width: 100%;
+  /* flex-basis: 50%; */
+}
+
+#dosage-program h3 {
+  color: var(--secondary-color);
+  font-family: var(--georama-font);
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 30px;
+  margin: 0px 0px 15px;
+}
+#dosage-program h2 {
+  color: var(--secondary-color);
+  font-family: var(--roboto-font);
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 48px;
+  margin: 0px 0px 15px;
+}
+#dosage-program p {
+  color: var(--secondary-color);
+  font-family: var(--poppins-font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 0px 0px 16px;
+}
+#dosage-program .content-box {
+  padding: 0px 0px 0px 20px;
+  margin: 0px 0px 20px;
+}
+
+/* End of DosageProgram */
