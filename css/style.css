@@ -144,3 +144,66 @@ img {
 }
 
 /* End of BANNER */
+
+/* Begining of About Us */
+#about-us {
+  padding: 60px 0px;
+}
+#about-us .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+#about-us .row .col {
+  max-width: calc(50% - 25px);
+  width: 100%;
+  /* flex-basis: 50%; */
+}
+
+#about-us h3 {
+  color: var(--secondary-color);
+  font-family: var(--georama-font);
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 30px;
+  margin: 0px 0px 15px;
+}
+#about-us h2 {
+  color: var(--secondary-color);
+  font-family: var(--roboto-font);
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 48px;
+  margin: 0px 0px 15px;
+}
+#about-us p {
+  color: var(--secondary-color);
+  font-family: var(--poppins-font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 0px 0px 16px;
+}
+.certified-btn {
+  padding: 15px 30px;
+  color: var(--white-color);
+  font-family: var(--poppins-font);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  border-radius: 60px;
+  border: 1px solid var(--secondary-color);
+  background-color: var(--secondary-color);
+  transition: all 0.5s linear;
+  text-decoration: none;
+  /* text-align: center; */
+  display: inline-block;
+  cursor: pointer;
+}
+.certified-btn:hover {
+  color: var(--white-color);
+  background-color: #0d85c0;
+  border: 1px solid #0d85c0;
+}
+
+/* End of About Us */
