@@ -207,3 +207,53 @@ img {
 }
 
 /* End of About Us */
+
+/* Begining of Homepage */
+#homepage {
+  padding: 60px 0px;
+}
+#homepage .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+#homepage .row .col {
+  max-width: calc(50% - 25px);
+  width: 100%;
+  /* flex-basis: 50%; */
+}
+/* #homepage .div-img {
+  width: 600px;
+  height: 600px;
+} */
+#homepage .col .content-box {
+  padding: 100px 0;
+}
+#homepage h3 {
+  color: var(--secondary-color);
+  font-family: var(--georama-font);
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 30px;
+  margin: 0px 0px 15px;
+}
+#homepage h2 {
+  color: var(--secondary-color);
+  font-family: var(--roboto-font);
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 48px;
+  margin: 0px 0px 15px;
+}
+#homepage .content-box ul {
+  padding: 0px 0px 0px 20px;
+  margin: 0px 0px 20px;
+}
+#homepage .content-box ul li {
+  color: var(--secondary-color);
+  font-family: var(--poppins-font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+/* End of Homepage */
